@@ -1,5 +1,5 @@
-var a = 4,
-  b = 8,
+var a = prompt ('number'),
+  b = prompt ('number'),
   value = (a * a) + (2 * a * b) - (b * b);
 
 if (value > 0) {
