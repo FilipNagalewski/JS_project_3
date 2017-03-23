@@ -4,7 +4,9 @@ var a = prompt('Pole trójkąta o podstawie "a": '),
 
 if (!isNaN(Number(a)) && !isNaN(Number(h))) {
   triangleArea = a*h/2;
-  console.log('Pole trójkąta o podstawie a: ' + a + ' i wysokości h: ' + h + ' wynosi: ' + triangleArea);
+  console.log('Pole trójkąta o podstawie a: ' + a + ' i wysokości h: ' + h + ' wynosi: ' + triangleArea),
+  alert('Pole trójkąta o podstawie a: ' + a + ' i wysokości h: ' + h + ' wynosi: ' + triangleArea);
 } else {
-  console.log('Złe dane. Wprowadź cyfry.');
+  console.log('Złe dane. Wprowadź cyfry.'),
+  alert('Złe dane. Wprowadź cyfry.');
 }
